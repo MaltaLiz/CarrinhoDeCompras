@@ -13,7 +13,9 @@ Ao lado de cada produto, coloque um botão "Adicionar ao carrinho" e alguma form
 A segunda região será o carrinho. Ele deve mostrar os produtos adicionados (nome, preço unitário, quantidade e total daquele produto). Coloque a opção de deletar um produto (remove todas as unidades daquele produto de uma vez do carrinho).
 
 Quando o usuário clicar em um botão "Adicionar carrinho" na área de compras, você deve verificar se aquele produto já existe no carrinho.
+
   -caso exista, some a quantidade selecionada ao carrinho e atualize o valor total daquele produto
+  
   -caso não exista, insira a quantidade selecionada do produto no carrinho e atualize o preço total daquele produto
 
 O carrinho não deve ter seu conteúdo perdido caso a página seja atualizada.
