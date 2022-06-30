@@ -1,6 +1,6 @@
 ### CarrinhoDeCompras
 
-Desafio da Let's Code:
+Desafio proposto pela Let's Code:
 
 Faça uma página em HTML subdividida em 2 regiões:
 
@@ -14,9 +14,9 @@ A segunda região será o carrinho. Ele deve mostrar os produtos adicionados (no
 
 Quando o usuário clicar em um botão "Adicionar carrinho" na área de compras, você deve verificar se aquele produto já existe no carrinho:
 
-  -caso exista, some a quantidade selecionada ao carrinho e atualize o valor total daquele produto
+  - caso exista, some a quantidade selecionada ao carrinho e atualize o valor total daquele produto
   
-  -caso não exista, insira a quantidade selecionada do produto no carrinho e atualize o preço total daquele produto
+  - caso não exista, insira a quantidade selecionada do produto no carrinho e atualize o preço total daquele produto
 
 O carrinho não deve ter seu conteúdo perdido caso a página seja atualizada.
 
