@@ -1,0 +1,1 @@
+export const frete = (qntdTotalDeItensNoCarrinho: number) => Math.ceil(qntdTotalDeItensNoCarrinho/10)*10;
