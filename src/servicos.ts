@@ -29,6 +29,11 @@ function adicionaAoCarrinho(produto: Produto, qntd: number) {
     }
 }
 
+export function limpaCarrinho(){
+    while(carrinho.length) carrinho.pop();
+    localStorage.clear();
+}
+
 export function verificaCarrinhoDeCompras() {
     produtos.forEach(produto => {
         const qntdProdutoExistente = localStorage.getItem(JSON.stringify(produto.id));
@@ -63,7 +68,7 @@ export function criaEventListenerParaFinalizarCompra() {
     const botao = document.querySelector('.botaoFinaliza');
     botao?.addEventListener('click', () => {
         renderCarrinhoDeCompras(true);
-        localStorage.clear();
+        limpaCarrinho();
     })
 }
 
